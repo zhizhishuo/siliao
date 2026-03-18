@@ -11,8 +11,7 @@ npm install
 npm run dev
 ```
 
-Frontend: http://localhost:5173
-Backend: http://localhost:3001
+After startup, check the terminal for the access URLs (frontend and backend API).
 
 ## Pull Request Process / PR 流程
 

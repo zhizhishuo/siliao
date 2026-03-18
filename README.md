@@ -53,8 +53,9 @@ npm install
 npm run dev
 ```
 
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:3001
+After startup, open the URL shown in terminal (default port 5173 for frontend, 3001 for backend API).
+
+启动后，在终端中查看显示的访问地址（前端默认端口 5173，后端 API 默认端口 3001）。
 
 ### Demo Accounts / 演示账号
 
@@ -74,8 +75,7 @@ A default channel `全员群` is created automatically.
 ┌─────────────┐     WebSocket      ┌─────────────┐
 │  React App  │◄──────────────────►│  Express +   │
 │  (Vite)     │     REST API       │  Socket.IO   │
-│  Port 5173  │◄──────────────────►│  Port 3001   │
-└─────────────┘                    └──────┬───────┘
+└─────────────┘◄──────────────────►└──────┬───────┘
                                           │
                                    ┌──────┴───────┐
                                    │   SQLite DB   │
