@@ -1,0 +1,28 @@
+{
+  "name": "siliao2",
+  "version": "1.0.0",
+  "description": "Internal team chat MVP with React and Express",
+  "scripts": {
+    "dev": "concurrently -k \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "lint": "npm run lint --prefix frontend"
+  },
+  "keywords": [
+    "chat",
+    "react",
+    "express",
+    "socket-io"
+  ],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
